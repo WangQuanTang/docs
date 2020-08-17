@@ -15,10 +15,16 @@ use Dcat\Admin\Grid;
 });
 
 // 也可以通过以下方式启用或禁用按钮
+//禁用操作
 $grid->disableDeleteButton();
 $grid->disableEditButton();
 $grid->disableQuickEditButton();
 $grid->disableViewButton();
+//开启操作
+$grid->showDeleteButton();
+$grid->showEditButton();
+$grid->showQuickEditButton();
+$grid->showViewButton();
 ```
 
 ### 切换行操作按钮显示方式
